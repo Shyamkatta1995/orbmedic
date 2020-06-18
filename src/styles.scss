@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-light.is-sticky .navbar-nav .nav-item .nav-link:hover,
+.navbar-light.is-sticky .navbar-nav .nav-item .nav-link:focus,
+.navbar-light.is-sticky .navbar-nav .nav-item .nav-link.active {
+    color: #ff6602;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link:focus,
+.navbar-light .navbar-nav .nav-item .nav-link.active {
+    color: #ff6602;
+}
+.navbar-light .navbar-nav .nav-item .nav-link::before {
+    background: #99bf17;
+}
+.navbar-brand img {
+    height: 180px;
+    width: 250px;
+}
+.main-banner-content h1 b {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #99bf17 80%);
+}
+
+button,
+.btn-primary::before,
+.btn-primary::after {
+    background: #99bf17 !important;
+}
+
+.section-title span {
+    color: #ff6602;
+}
+
+.preloader .loader {
+    border-top-color: #99bf17;
+}
+
+.preloader .loader::after {
+    border-top-color: #ff6602;
+}
+h2 b {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #99bf17 80%) !important;
+}
+
+.single-features.active, .single-features:hover, .single-features:focus {
+    background: #99bf17;
+}
+
+i {
+    color: #ff6602 !important;
+}
+
+ul li::before {
+    background: #99bf17 !important;
+}
+.tab .tabs li.current a, .tab .tabs li a:hover, .tab .tabs li a:focus {
+    background: #99bf17 !important;
+    border-color: #99bf17 !important;
+}
+
+.contact-info, .contact-form {
+    border-top: 3px solid  #ff6602 !important;
+    border-bottom: 3px solid #ff6602 !important;
+}
+.contact-info li:hover i {
+    background: #99bf17 !important;
+}
+.contact-info li:hover a {
+    color: #ff6602 !important;
+}
+
+.form-control:focus {
+    border-color: #ff6602 !important;
+}
